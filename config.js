@@ -90,6 +90,7 @@ Sunday:
 // Default response (When no matches).
 exports.RESPONSE_DEFAULT = `Wrong day of the week.`;
 // Keyboard entries
+// IMPORTANT! If you're changing keyboard entries here you also need to change them in bot.js (starting from line 27) in switch statement.
 exports.KEYBOARD = [
     ['Monday'],
     ['Tuesday'],
